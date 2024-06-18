@@ -1,0 +1,27 @@
+
+.header-image {
+    width: 500px;
+    position: relative;
+}
+
+#image {
+    width: 100%;
+    height: 700px;
+}
+
+#text {
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+#gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+#gallery img {
+    height: 200px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
